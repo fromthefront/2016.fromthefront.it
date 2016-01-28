@@ -12,6 +12,15 @@
 /* Defaults */
 /* Dimensions */
 /* Breakpoints */
+
+a {
+  text-decoration: underline;
+}
+
+.social-share-list a {
+  text-decoration: none;
+}
+
 .demo {
   overflow: hidden;
   margin-bottom: 1rem; }
