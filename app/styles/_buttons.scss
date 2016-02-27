@@ -1,0 +1,67 @@
+@keyframes btn-anim-1 {
+  60% {
+    transform: scale3d(0.8, 0.8, 1);
+  }
+  85% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes btn-anim-2 {
+  to {
+    opacity: 0;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.btn {
+  display: inline-block;
+
+  background: $aqua;
+  color: $blue;
+
+  margin: 1rem;
+  padding: 0 1.5rem;
+
+  border: none;
+  border-radius: 50px;
+
+  @include sans-normal;
+  line-height: 1.5rem;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  z-index: 1;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+    border-radius: 50px;
+    z-index: -1;
+    opacity: 0.4;
+    transform: scale3d(0.8, 0.5, 1);
+  }
+
+  &:hover {
+    transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+    animation: btn-anim-1 0.3s forwards;
+
+    &::before {
+      background-color: $aqua;
+      animation: btn-anim-2 0.3s 0.3s forwards;
+    }
+  }
+}

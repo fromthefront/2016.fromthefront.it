@@ -1,0 +1,27 @@
+@mixin sans-normal() {
+  font-family: $sans;
+  font-weight: 700;
+}
+
+@mixin sans-thin() {
+  font-family: $sans;
+  font-weight: 400;
+}
+
+@mixin sans-bold() {
+  font-family: $sans;
+  font-weight: 900;
+}
+
+@mixin phone() {
+  @include max-screen(700px)  {
+    @content;
+  }
+}
+
+@mixin pc() {
+  @include min-screen(700px)  {
+    @content;
+  }
+}
+

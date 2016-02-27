@@ -1,0 +1,58 @@
+header {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  @include flexbox();
+  @include flex-wrap(wrap);
+  @include align-items(center);
+  @include flex-direction(row);
+
+  @include pc {
+    @include justify-content(space-between);
+  }
+
+  @include phone {
+    @include flex-direction(column);
+    @include justify-content(center);
+  }
+
+  padding: 1rem 2rem;
+
+  a {
+    color: $white;
+    opacity: .5;
+    transition: opacity 300ms;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  h1 a {
+    text-decoration: none;
+  }
+
+  a + a {
+    margin-left: 1rem;
+  }
+
+  .header-left {
+    @include flexbox();
+    @include align-items(center);
+    text-decoration: none;
+
+    @include phone {
+      margin-bottom: 1rem;
+    }
+
+    img + span {
+      margin-left: 1rem;
+    }
+
+    img {
+      @include phone {
+        height: 3rem;
+      }
+    }
+  }
+}

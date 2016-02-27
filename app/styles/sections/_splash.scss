@@ -1,0 +1,89 @@
+#splash {
+  $height: 100vh;
+
+  background-image: url(/images/stars.jpg);
+  background-size: cover;
+  height: $height;
+  color: $white;
+  @include flexbox();
+  @include justify-content(center);
+
+  .shadow {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: radial-gradient(
+        center 0,
+        circle farthest-corner,
+        rgba(100, 95, 125, 0.6),
+        rgba(40, 35, 55, 0.8)
+    );
+  }
+
+  article {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 5rem;
+    @include align-self(center);
+  }
+
+  h1 {
+    @include pc {
+      $font-size: 6rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    @include phone {
+      $font-size: 2.5rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    text-transform: uppercase;
+
+    @include sans-bold;
+  }
+
+  h2 {
+    @include pc {
+      $font-size: 2rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    @include phone {
+      $font-size: 1rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    @include sans-normal;
+  }
+
+  h3 {
+    @include pc {
+      $font-size: 1.5rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    @include phone {
+      $font-size: .8rem;
+      font-size: $font-size;
+      line-height: $font-size + 1;
+    }
+
+    @include sans-thin;
+  }
+
+  .btn {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+}
