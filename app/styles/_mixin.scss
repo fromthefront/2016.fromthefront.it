@@ -25,3 +25,18 @@
   }
 }
 
+@mixin white-link($hover: true) {
+  color: $white;
+  opacity: .5;
+  transition: opacity 300ms;
+
+  @if $hover == true {
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  & + a {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,39 @@
+footer {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include sans-thin;
+  padding: 1rem 1.5rem;
+
+  @include pc {
+    font-size: .8rem;
+  }
+
+  @include phone {
+    font-size: .6rem;
+  }
+
+  @include flexbox();
+  @include flex-wrap(wrap);
+  @include align-items(center);
+  @include flex-direction(row);
+  @include justify-content(space-between);
+
+  p {
+    @include white-link(false);
+  }
+
+  a {
+    @include white-link;
+    text-decoration: none;
+  }
+
+  nav {
+    @include phone {
+      text-align: right;
+      @include flexbox();
+      @include flex-direction(column);
+    }
+  }
+}
