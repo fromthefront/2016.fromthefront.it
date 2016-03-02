@@ -1,5 +1,5 @@
 #splash {
-  $height: 100vh;
+  $height: 100%;
 
   background-image: url(/images/stars.jpg);
   background-position: center;
@@ -23,7 +23,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 38, 75, 0.5);
+    background: rgba(0, 38, 75, 0.4);
   }
 
   article {
@@ -50,10 +50,11 @@
     @include pc {
       font-size: 6rem;
       line-height: 7rem;
+      letter-spacing: 2px
     }
 
     @include phone {
-      $font-size: 2.5rem;
+      $font-size: 3rem;
       font-size: $font-size;
       line-height: $font-size + 1;
     }
@@ -70,7 +71,7 @@
     }
 
     @include phone {
-      $font-size: 1rem;
+      $font-size: 1.3rem;
       font-size: $font-size;
       line-height: $font-size + 1;
     }
@@ -85,7 +86,7 @@
     }
 
     @include phone {
-      $font-size: .8rem;
+      $font-size: 1rem;
       font-size: $font-size;
       line-height: $font-size + 1;
     }
@@ -93,7 +94,8 @@
     @include sans-thin;
   }
 
-  .btn {
+  .tito-tickets-button {
+    cursor: pointer;
     @include pc {
       margin: 3rem 0;
       line-height: 3.6rem;
@@ -128,4 +130,5 @@
       }
     }
   }
+  #tickets{display: none;}
 }

@@ -45,7 +45,8 @@ header {
 
   .header-right {
     @include phone {
-      display: none;
+      margin-top:-20px;
+      margin-left:60px;
     }
     svg {
       fill:white
