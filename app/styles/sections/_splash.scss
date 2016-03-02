@@ -9,6 +9,13 @@
   @include flexbox();
   @include justify-content(center);
 
+  sup {
+   position: relative;
+   vertical-align: top;
+   font-size: 60%;
+   top: -0.5em;
+  }
+
   .shadow {
     z-index: 1;
     position: absolute;
@@ -16,7 +23,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 38, 75, 0.5);
   }
 
   article {
@@ -31,14 +38,18 @@
       @include align-self(center);
       display: block;
       line-height: 1.2;
+      br {
+        @include pc {
+          display: none
+        }
+      }
     }
   }
 
   h1 {
     @include pc {
-      $font-size: 6rem;
-      font-size: $font-size;
-      line-height: $font-size + 1;
+      font-size: 6rem;
+      line-height: 7rem;
     }
 
     @include phone {
@@ -54,9 +65,8 @@
 
   h2 {
     @include pc {
-      $font-size: 2rem;
-      font-size: $font-size;
-      line-height: $font-size + 1;
+      font-size: 2.5rem;
+      line-height: 5rem;
     }
 
     @include phone {
@@ -70,9 +80,8 @@
 
   h3 {
     @include pc {
-      $font-size: 1.5rem;
-      font-size: $font-size;
-      line-height: $font-size + 1;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
     }
 
     @include phone {
