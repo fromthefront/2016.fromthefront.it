@@ -2,6 +2,7 @@
   $height: 100vh;
 
   background-image: url(/images/stars.jpg);
+  background-position: center;
   background-size: cover;
   height: $height;
   color: $white;
@@ -15,20 +16,22 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: radial-gradient(
-        center 0,
-        circle farthest-corner,
-        rgba(100, 95, 125, 0.6),
-        rgba(40, 35, 55, 0.8)
-    );
+    background: rgba(0,0,0,0.5);
   }
 
   article {
     position: relative;
     z-index: 2;
     text-align: center;
-    line-height: 5rem;
+    //line-height: 5rem;
     @include align-self(center);
+
+
+    span {
+      @include align-self(center);
+      display: block;
+      line-height: 1.2;
+    }
   }
 
   h1 {

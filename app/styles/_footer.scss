@@ -5,6 +5,7 @@ footer {
   width: 100%;
   @include sans-thin;
   padding: 1rem 1.5rem;
+  line-height: 1.3;
 
   @include pc {
     font-size: .8rem;

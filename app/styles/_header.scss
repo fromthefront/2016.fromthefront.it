@@ -47,5 +47,8 @@ header {
     @include phone {
       display: none;
     }
+    svg {
+      fill:white
+    }
   }
 }
