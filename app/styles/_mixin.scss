@@ -40,3 +40,22 @@
     margin-left: 1rem;
   }
 }
+
+@mixin blue-shadow {
+  .shadow {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 38, 75, 0.4);
+  }
+}
+
+@mixin planet($color, $rotation) {
+  .speaker_photo:after {
+    box-shadow: 8px 5px $color;
+    transform: rotate($rotation);
+  }
+}

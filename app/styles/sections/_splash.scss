@@ -16,23 +16,13 @@
    top: -0.5em;
   }
 
-  .shadow {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 38, 75, 0.4);
-  }
+  @include blue-shadow();
 
   article {
     position: relative;
     z-index: 2;
     text-align: center;
-    //line-height: 5rem;
     @include align-self(center);
-
 
     span {
       @include align-self(center);
@@ -117,18 +107,5 @@
     }
   }
 
-  .nav--social {
-    @include pc {
-      display: none;
-    }
-
-    @include phone {
-      margin-top: 1rem;
-
-      a {
-        text-decoration: none;
-      }
-    }
-  }
   #tickets{display: none;}
 }
