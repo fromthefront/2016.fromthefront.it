@@ -1,6 +1,6 @@
 body {
   font: normal #{$fonts-base}/#{$fonts-line-height} $font-base;
-  color: black;
+  color: $base-text-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
