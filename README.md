@@ -19,7 +19,12 @@ jekyll build
 ```
 
 ## Code quality
-none at the moment
+Scss Lint
+
+```
+gem install scss-lint
+scss-lint ./_sass --config ./.scss-lint.yml
+```
 
 ## Dependencies
 
