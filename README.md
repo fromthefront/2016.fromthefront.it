@@ -3,16 +3,16 @@ FTF2016
 From the front 2016 conference website. 
 Based on [Jekyll](https://jekyllrb.com/)
 
-### Usage
+## Usage
 
-## dev
+#### dev
 ```
 gem install jekyll
 jekyll serve
 open http://localhost:4000
 ```
 
-## build
+#### build
 ```
 jekyll build
 # => The current folder will be generated into ./_site
