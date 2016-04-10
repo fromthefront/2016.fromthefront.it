@@ -19,7 +19,7 @@ jekyll build
 ```
 
 ## Code quality
-Scss Lint
+[Scss Lint](https://github.com/brigade/scss-lint)
 
 ```
 gem install scss-lint
