@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
+<article class="home">
+  <div class="home__banner">
+    {% include banner.html %}
+  </div>
 
-<div class="home">
+  <div class="home__description">
+    <!-- Qui va la description -->
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="home__speakers">
+    <!-- Qui va la speaker's section -->
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="home__ticket">
+    <!-- Qui va la ticket section -->
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <div class="home__sponsors">
+    <!-- Qui va la sponsors section -->
+  </div>
+</article>
