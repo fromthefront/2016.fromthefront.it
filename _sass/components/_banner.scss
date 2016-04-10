@@ -1,0 +1,16 @@
+.banner {
+  text-align: center;
+  margin-bottom: $rithm;
+  padding: 0 $rithm;
+}
+
+.banner__meta {
+  font-size: rem($ratio-medium);
+  font-weight: bold;
+  margin: 0 0 $rithm;
+  color: $peach;
+
+  span {
+    color: $primary-color;
+  }
+}
