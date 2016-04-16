@@ -3,5 +3,7 @@ layout: post
 title:  "Ben Sauer"
 date:   2016-04-16 15:42:13 +0200
 categories: speaker
-twitter: danielmall
+twitter: bensauer
+short-bio: UX Designer + Strategist at Clearleft, ex-director at The Escape Committee. Provocateur.
+talk: t.b.a.
 ---
