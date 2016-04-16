@@ -2,7 +2,7 @@
   <div class="speakers__loop">
     {% for post in site.posts %}
       {% if post.categories contains 'speaker' %}
-        {{ post.title }}
+        {% include speaker.html speaker=post %}
       {% endif %}
     {% endfor %}
   </div>
