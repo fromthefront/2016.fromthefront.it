@@ -1,0 +1,13 @@
+<article class="speaker">
+  <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.title | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+  <div class="speaker__info">
+    <h1 class="speaker__name">
+      {{include.speaker.title}}
+    </h1>
+    <a href="//twitter.com/{{include.speaker.twitter}}" class="speaker__twitter">@{{include.speaker.twitter}}</a>
+    <p class="speaker__shortbio">
+      {{include.speaker.shortbio}}
+    </p>
+  </div>
+
+</article>
