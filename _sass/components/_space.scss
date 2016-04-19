@@ -11,7 +11,7 @@
   display: block;
   position: relative;
   top: -1px;
-  z-index: -1;
+  z-index: 100;
   max-width: 1400px;
   margin: -3rem auto 0;
 
@@ -20,5 +20,22 @@
   }
 }
 
+.wave {
+    position: relative;
+    bottom: 3rem;
+    z-index: 2;
 
+    background: $peach;
+    transform: scale(1.9);
+    transform-origin: 90% 40%;
+    max-width: 1400px;
 
+    @include media(">tablet-portrait") {
+      margin-top: -8rem;
+    }
+
+    @include media(">desktop") {
+      margin-top: -18rem;
+    }
+
+}
