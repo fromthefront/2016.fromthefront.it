@@ -1,0 +1,24 @@
+.space__top {
+  display: block;
+  position: relative;
+  z-index: -1;
+  max-width: 1400px;
+  margin: 0 auto;
+  transform: scale(1.25)
+}
+
+.space__bottom {
+  display: block;
+  position: relative;
+  top: -1px;
+  z-index: -1;
+  max-width: 1400px;
+  margin: -3rem auto 0;
+
+  @include media(">tablet-portrait") {
+    margin-top: -10rem;
+  }
+}
+
+
+

@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "config/breakpoints",
+  "config/colors",
+  "config/type",
+
+  "helpers/mixin",
+
+  "vendor/normalize",
+
+  "base/misc",
+  "base/typography",
+
+  "layout/home",
+
+  "components/global-nav",
+  "components/global-header",
+  "components/button",
+  "components/banner",
+  "components/site-footer",
+
+  "components/space",
+  "components/description",
+  "components/speakers"
+;
