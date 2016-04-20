@@ -6,9 +6,15 @@
   border-radius: 1rem;
   text-decoration: none;
   font-weight: 700;
+  text-transform: uppercase;
 
   @include on-interaction() {
-    background: darken($primary-color, 30%);
+    background: darken($primary-color, 10%);
+  }
+
+  @include media('>tablet-portrait') {
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
   }
 }
 
@@ -24,5 +30,10 @@
 
   @include on-interaction() {
     background: darken($blue50, 10%);
+  }
+
+  @include media('>tablet-portrait') {
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
   }
 }

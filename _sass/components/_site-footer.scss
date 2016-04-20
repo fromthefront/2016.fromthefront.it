@@ -1,4 +1,23 @@
+.site-contacts {
+  z-index: 100;
+  width: 30%;
+  margin-top: -25rem;
+  margin-left: 5rem;
+  color: $peach;
+  font-weight: bold;
+  line-height: 1.5;
+
+  .site-contacts--title, li {
+    line-height: 2;
+  }
+
+  .site-contacts--title {
+    color: $blue10;
+    margin: 0;
+  }
+}
+
 .site-footer {
-  padding: 1rem;
+  z-index: 101;
   text-align: center;
 }
