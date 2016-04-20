@@ -1,11 +1,16 @@
 .speakers {
   position: relative;
-  background-color: $peach;
+  margin-top: -6px;
 }
 
 .speakers__loop {
   position: relative;
   z-index: 10;
+  margin-top: -3rem;
+
+  @include media('>tablet-portrait') {
+    margin-top: -8rem;
+  }
 }
 
 .speaker {
@@ -14,7 +19,6 @@
   position: relative;
   padding: 0 5%;
   text-align: center;
-  margin-top: 2rem;
 
   @include media('>tablet-portrait') {
     display: flex;

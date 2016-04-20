@@ -11,9 +11,9 @@
   display: block;
   position: relative;
   top: -1px;
-  z-index: 100;
-  max-width: 1400px;
-  margin: -3rem auto 0;
+  z-index: 2;
+  max-width: 1000px;
+  margin: -1rem auto 0;
 
   @include media('>tablet-portrait') {
     margin-top: -10rem;
@@ -22,25 +22,14 @@
 
 .wave {
   position: relative;
-  bottom: 3rem;
-  z-index: 2;
-
   background: $peach;
-  transform: scale(1.9);
-  transform-origin: 90% 40%;
-  max-width: 1400px;
-
-  @include media('>tablet-portrait') {
-    margin-top: -8rem;
-  }
-
-  @include media('>desktop') {
-    margin-top: -18rem;
-  }
 
   &:last-of-type {
-    transform: scale(1.9) rotate(180deg);
-    transform-origin: 40% 65%;
-    margin-bottom: 25rem;
+    transform: rotate(180deg);
+    margin-top: -3rem;
+
+    @include media('>tablet-portrait') {
+      margin-top: -8rem;
+    }
   }
 }
