@@ -26,10 +26,5 @@
 
   &:last-of-type {
     transform: rotate(180deg);
-    margin-top: -3rem;
-
-    @include media('>tablet-portrait') {
-      margin-top: -8rem;
-    }
   }
 }

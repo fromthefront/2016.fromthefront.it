@@ -17,3 +17,15 @@
 .home__speakers {
   background-color: $peach;
 }
+
+.home__ticket {
+  background: $peach;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  > p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
