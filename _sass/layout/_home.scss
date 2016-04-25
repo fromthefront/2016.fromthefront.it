@@ -16,16 +16,12 @@
 
 .home__speakers {
   background-color: $peach;
+  color: $blue70;
 }
 
 .home__ticket {
   background: $peach;
+  color: $blue70;
   padding-top: 5rem;
   padding-bottom: 5rem;
-
-  > p {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-  }
 }

@@ -22,6 +22,7 @@
 
 .wave {
   position: relative;
+  top: -1px; // to prevent browser redundance gap
   background: $peach;
 
   &:last-of-type {

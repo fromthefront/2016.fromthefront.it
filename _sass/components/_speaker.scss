@@ -1,0 +1,50 @@
+$speaker-height: 10rem;
+
+.speaker {
+  position: relative;
+  padding: 0 5%;
+  text-align: center;
+
+  @include media('>tablet-portrait') {
+    display: flex;
+    align-items: center;
+    height: $speaker-height;
+    text-align: left;
+  }
+
+  &:nth-child(2n) {
+    @include media('>tablet-portrait') {
+      text-align: right;
+    }
+
+    .speaker__img {
+      left: auto;
+      right: calc(30% - #{$speaker-height});
+    }
+  }
+}
+
+.speaker__img {
+  display: inline-block;
+  border-radius: 100%;
+  height: $speaker-height;
+
+  @include media('>tablet-portrait') {
+    position: absolute;
+    left: calc(30% - #{$speaker-height});
+  }
+}
+
+
+
+.speaker__name {
+  margin: 0;
+}
+
+.speaker__info {
+  padding: 0 15%;
+
+  @include media('>tablet-portrait') {
+    padding: 0 30%;
+  }
+}
