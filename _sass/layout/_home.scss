@@ -5,6 +5,11 @@
 .home__banner {
   position: relative;
   z-index: 10;
+  margin-top: 0.5rem;
+
+  @include media('>=tablet-portrait') {
+    margin-top: 4rem;
+  }
 }
 
 .home__description {
