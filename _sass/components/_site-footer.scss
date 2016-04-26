@@ -12,7 +12,7 @@
   }
 
   @include media('>desktop') {
-    bottom: 15rem;
+    transform: translateY(-150%);
   }
 
   .site-contacts--title, li {
