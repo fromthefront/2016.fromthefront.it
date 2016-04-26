@@ -4,6 +4,7 @@ $speaker-height: 10rem;
   position: relative;
   padding: 0 5%;
   text-align: center;
+  overflow: auto;
 
   @include media('>tablet-portrait') {
     display: flex;
@@ -31,6 +32,7 @@ $speaker-height: 10rem;
 
   @include media('>tablet-portrait') {
     position: absolute;
+    top:0;
     left: calc(30% - #{$speaker-height});
   }
 }
