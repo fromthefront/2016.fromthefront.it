@@ -1,6 +1,11 @@
 .speakers {
   position: relative;
   margin-top: -6px;
+
+  h3 {
+    text-align: center;
+    margin: $rithm*2 auto 0;
+  }
 }
 
 .speakers__loop {

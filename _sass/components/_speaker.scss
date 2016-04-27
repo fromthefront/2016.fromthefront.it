@@ -4,7 +4,7 @@ $speaker-height: 10rem;
   position: relative;
   padding: 0 5%;
   text-align: center;
-  overflow: auto;
+  overflow: hidden;
 
   @include media('>tablet-portrait') {
     display: flex;
