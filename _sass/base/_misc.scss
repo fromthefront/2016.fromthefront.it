@@ -13,7 +13,7 @@
   font-size: 8rem;
   background: rgba(0,0,0,0.7);
   color: #fff;
-  z-index: 1000;
+  z-index: -1;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,8 @@
 }
 
 #splash.on {
-  opacity: 1
+  opacity: 1;
+  z-index: 1000;
 }
 
 
