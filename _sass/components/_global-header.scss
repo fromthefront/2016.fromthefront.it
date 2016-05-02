@@ -1,7 +1,9 @@
 .global-header {
   position: relative;
+  width: 90%;
   max-width: 900px;
-  margin: $rithm*2 auto 0;
+  margin: $rithm*3 auto $rithm;
+  transform: rotate(-5deg);
 }
 
 .global-header__title {
