@@ -12,7 +12,7 @@ email: matteo@fromthefront.it
 description: >
   The frontend guide to life, universe and everything is going to be an inspiring, formative, cutting edge gathering of  some of the best frontend developers and UX people in the world. Bologna, september 2016
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://2016.fromthefront.it" # the base hostname & protocol for your site
+url: "https://2016.fromthefront.it" # the base hostname & protocol for your site
 twitter_username: fromthefront
 github_username:  mattcav
 
