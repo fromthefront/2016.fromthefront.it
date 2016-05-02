@@ -3,7 +3,11 @@
   width: 90%;
   max-width: 900px;
   margin: $rithm*3 auto $rithm;
-  transform: rotate(-5deg);
+  transform: rotate(-2deg);
+
+  @include media('>phablet') {
+    transform: rotate(-2deg) scale(.9);
+  }
 }
 
 .global-header__title {
