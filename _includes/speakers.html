@@ -1,10 +1,11 @@
 <section id="speakers" class="speakers">
   <div class="speakers__loop">
-    {% for post in site.posts %}
+    {% assign sorted_posts = (site.posts | sort: 'title') %}
+
+    {% for post in sorted_posts %}
       {% if post.categories contains 'speaker' %}
         {% include speaker.html speaker=post %}
       {% endif %}
     {% endfor %}
-  <h4>more to be announced</h4>
   </div>
 </section>

@@ -1,10 +1,24 @@
 <article class="speaker">
-  <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.title | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+  {% if include.speaker.tba %}
+    <div class="speaker__img-wrapper">
+      <img src="{{site.baseurl}}/assets/speakers/default.png" alt="A picture of the from the front" class="speaker__img">
+      <div>?</div>
+    </div>
+  {% else %}
+    <div class="speaker__img-wrapper">
+      <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.title | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+    </div>
+  {% endif %}
+
   <div class="speaker__info">
     <h3 class="speaker__name">
       {{include.speaker.title}}
     </h3>
-    <a href="//twitter.com/{{include.speaker.twitter}}" class="speaker__twitter">@{{include.speaker.twitter}}</a>
+
+    {% unless include.speaker.tba %}
+      <a href="//twitter.com/{{include.speaker.twitter}}" class="speaker__twitter">@{{include.speaker.twitter}}</a>
+    {% endunless %}
+
     <p class="speaker__shortbio">
       {{include.speaker.short-bio}}
     </p>
