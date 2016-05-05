@@ -1,10 +1,11 @@
-<article class="speaker">
   {% if include.speaker.tba %}
-    <div class="speaker__img-wrapper">
+  <article class="speaker speaker--unknown">
+    <div class="speaker__img-wrapper ">
       <img src="{{site.baseurl}}/assets/speakers/default.png" alt="A picture of the from the front" class="speaker__img">
       <div>?</div>
     </div>
   {% else %}
+  <article class="speaker">
     <div class="speaker__img-wrapper">
       <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.title | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
     </div>
