@@ -67,6 +67,7 @@ $speaker-height: 10rem;
 }
 
 .speaker__info {
+  width: 100%;
   padding: 0 15%;
 
   @include media('>tablet-portrait') {
