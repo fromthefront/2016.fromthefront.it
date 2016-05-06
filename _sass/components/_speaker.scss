@@ -1,5 +1,13 @@
 $speaker-height: 10rem;
 
+.speaker--unknown * {
+  transform: scale(0.9);
+}
+
+.speaker--unknown .speaker__info {
+  padding: 0 25%;
+}
+
 .speaker {
   position: relative;
   padding: 0 5%;
@@ -16,25 +24,49 @@ $speaker-height: 10rem;
   &:nth-child(2n) {
     @include media('>tablet-portrait') {
       text-align: right;
-    }
 
-    .speaker__img {
-      left: auto;
-      right: calc(30% - #{$speaker-height});
+      .speaker__img-wrapper {
+        left: auto;
+        right: calc(30% - #{$speaker-height});
+      }
     }
   }
 }
 
-.speaker__img {
+.speaker__img-wrapper {
+  position: relative;
   display: inline-block;
   border-radius: 100%;
   height: $speaker-height;
+  left: auto;
+  right: auto;
 
   @include media('>tablet-portrait') {
     position: absolute;
-    top:0;
+    top: 0;
     left: calc(30% - #{$speaker-height});
   }
+
+  > div {
+    position: absolute;
+    background: rgba(30, 72, 102, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    line-height: 1em;
+    padding-top: 0.5em;
+  }
+}
+
+
+.speaker__img {
+  border-radius: 100%;
+  height: $speaker-height;
 }
 
 
@@ -44,6 +76,7 @@ $speaker-height: 10rem;
 }
 
 .speaker__info {
+  width: 100%;
   padding: 0 15%;
 
   @include media('>tablet-portrait') {
