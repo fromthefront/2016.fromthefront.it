@@ -4,3 +4,8 @@ node_modules
 npm-debug.log
 .DS_Store
 .idea
+
+_site/feed.xml
+_site/README.md
+_site/Guardfile
+_site/.gitignore
