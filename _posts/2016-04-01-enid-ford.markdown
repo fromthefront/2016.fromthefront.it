@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Ford Bartfast"
+title:  "Enid Ford"
 date:   2016-04-16 15:40:13 +0200
 categories: speaker
 twitter: unknown
-short-bio: Dolphin email layout engineer
+short-bio: Accessibility advisor for Zaphod Beeblebrox
 talk: t.b.a.
 tba: yes
 ---

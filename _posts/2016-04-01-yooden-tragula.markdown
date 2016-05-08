@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Marvin Beeblebrox"
+title:  "Yooden Tragula"
 date:   2016-04-16 15:40:13 +0200
 categories: speaker
 twitter: unknown
-short-bio: Accessibility advisor for Zaphod Beeblebrox
+short-bio: Hitchhiker and researcher designer at Megadodo
 talk: t.b.a.
 tba: yes
 ---
