@@ -8,3 +8,6 @@ _site/feed.xml
 _site/README.md
 _site/Guardfile
 _site/.gitignore
+_site/speaker
+_site/styleguide
+_site/about
