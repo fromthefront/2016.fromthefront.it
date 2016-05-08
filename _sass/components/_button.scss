@@ -9,7 +9,7 @@
   text-transform: uppercase;
 
   @include on-interaction() {
-    background: darken($primary-color, 10%);
+    background: $peach;
   }
 
   @include media('>tablet-portrait') {
