@@ -1,8 +1,8 @@
-.tickets__title {
+.sponsors__title {
   text-align: center;
 }
 
-.tickets__text {
+.sponsors__text {
   width: 90%;
   max-width: 700px;
   padding: 0 $rithm;
@@ -10,8 +10,9 @@
   text-align: center;
 }
 
-.tickets__iframe {
-  width: 90%;
+.sponsors__box {
+  background-color: $black;
   max-width: 700px;
+  height: 300px;
   margin: 0 auto;
 }
