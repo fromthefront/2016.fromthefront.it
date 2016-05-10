@@ -7,7 +7,7 @@
   {% else %}
   <article class="speaker">
     <div class="speaker__img-wrapper">
-      <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.title | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+      <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
     </div>
   {% endif %}
 
