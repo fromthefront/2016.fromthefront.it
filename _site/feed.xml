@@ -6,8 +6,8 @@
 </description>
     <link>https://2016.fromthefront.it/</link>
     <atom:link href="https://2016.fromthefront.it/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 May 2016 15:21:40 +0200</pubDate>
-    <lastBuildDate>Sun, 08 May 2016 15:21:40 +0200</lastBuildDate>
+    <pubDate>Sun, 15 May 2016 18:45:23 +0200</pubDate>
+    <lastBuildDate>Sun, 15 May 2016 18:45:23 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -76,6 +76,19 @@
       </item>
     
       <item>
+        <title>Nephila</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 15:40:13 +0200</pubDate>
+        <link>https://2016.fromthefront.it/sponsor/2016/04/16/nephila.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/sponsor/2016/04/16/nephila.html</guid>
+        
+        
+        <category>sponsor</category>
+        
+      </item>
+    
+      <item>
         <title>Reg McKenna</title>
         <description>
 </description>
@@ -121,19 +134,6 @@
         <pubDate>Sat, 16 Apr 2016 15:40:13 +0200</pubDate>
         <link>https://2016.fromthefront.it/speaker/2016/04/16/unknown-5.html</link>
         <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/unknown-5.html</guid>
-        
-        
-        <category>speaker</category>
-        
-      </item>
-    
-      <item>
-        <title>Marvin Beeblebrox</title>
-        <description>
-</description>
-        <pubDate>Sat, 16 Apr 2016 15:40:13 +0200</pubDate>
-        <link>https://2016.fromthefront.it/speaker/2016/04/16/unknown-4.html</link>
-        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/unknown-4.html</guid>
         
         
         <category>speaker</category>

@@ -10,9 +10,44 @@
   text-align: center;
 }
 
-.sponsors__box {
-  background-color: $black;
-  max-width: 700px;
-  height: 300px;
-  margin: 0 auto;
+.sponsors__container {
+  text-align: center;
+  width: 100%;
+
+  .sponsor {
+    max-width: 24rem;
+    margin: 0 auto;
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
+
+  img {
+    display: inline-block;
+    margin: 0 auto;
+    max-height: 5rem;
+  }
+
+  &.sponsors__container--medium .sponsor {
+    width: 85%;
+    max-width: 18rem;
+  }
+
+  &.sponsors__container--small .sponsor {
+    width: 65%;
+    max-width: 15rem;
+  }
+
+  &.sponsors__container--xsmall .sponsor {
+    width: 50%;
+    max-width: 10rem;
+  }
+}
+
+.sponsors__help {
+  text-align: center;
+  margin-top: 1rem;
+
+  a {
+    font-weight: bold;
+  }
 }

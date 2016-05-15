@@ -3,8 +3,16 @@
         Sponsors
     </h2>
 
-    <div class="sponsors__box">
-        <!--add sponsors here-->
+    {% include sponsor-section.html site=site section='large' %}
+    {% include sponsor-section.html site=site section='medium' %}
+    {% include sponsor-section.html site=site section='small' %}
+    {% include sponsor-section.html site=site section='xsmall' %}
 
-    </div>
+    <p class="sponsors__help">
+        Want to help?
+        <br>
+        <a target="_blank" href="./assets/FTF_sponsor_pack_2016.pdf">
+            Download the sponsorpack
+        </a>
+    </p>
 </section>
