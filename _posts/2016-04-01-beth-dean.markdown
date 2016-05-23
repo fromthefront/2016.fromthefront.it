@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Beth Dean"
+date:   2016-04-16 15:40:13 +0200
+categories: speaker
+twitter: bethdean
+short-bio: Creep making comics, posters and toys as @_blackforest and designing @ Facebook. Liking all your dog pics. Prolific hiker.
+talk: t.b.a.
+---
