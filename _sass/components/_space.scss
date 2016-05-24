@@ -29,3 +29,35 @@
     transform: rotate(180deg);
   }
 }
+
+.wave--middle__wrapper {
+  position: relative;
+  top: -1px; // to prevent browser redundance gap
+  background: $peach;
+  text-align: center;
+
+  #blue-rocket {
+    display: none;
+  }
+
+  .wave--middle {
+    max-width: 700px;
+    //transform: scale(1.1);
+  }
+
+  .rockets__wrapper {
+    padding: 3em 0;
+  }
+}
+
+.rockets__wrapper {
+  position: relative;
+  top: -1px; // to prevent browser redundance gap
+  background: $peach;
+  text-align: center;
+
+  .rockets {
+    max-width: 150px;
+  }
+
+}

@@ -4,6 +4,13 @@
   max-width: 500px;
   margin: 0 auto;
 
+  .description__42 {
+  	max-width:25%;
+  	margin:auto;
+  	text-align:center;
+  	padding-bottom:1rem;
+  }
+
   @include media('>phablet') {
     font-size: em($ratio-medium);
     line-height: 1.4;

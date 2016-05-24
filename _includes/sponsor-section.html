@@ -1,0 +1,13 @@
+{% assign section_size = site.categories.sponsor | where:'section', include.section | size %}
+
+{% if section_size > 0 %}
+    <div class="sponsors__container sponsors__container--{{ include.section }}">
+      {% for post in site.posts %}{% if post.categories contains 'sponsor' %}{% if post.section == include.section %}{% unless post.tba %}
+        <article class="sponsor">
+            <a target="_blank" href="{{ post.website }}" class="sponsor__link">
+                <img src="./assets/sponsors/{{ post.title | slugify: 'pretty' }}.png" alt="{{ post.title }}" class="sponsor__img">
+            </a>
+        </article>
+      {% endunless %}{% endif %}{% endif %}{% endfor %}
+    </div>
+{% endif %}

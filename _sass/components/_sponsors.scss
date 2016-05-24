@@ -1,0 +1,53 @@
+.sponsors__title {
+  text-align: center;
+}
+
+.sponsors__text {
+  width: 90%;
+  max-width: 700px;
+  padding: 0 $rithm;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsors__container {
+  text-align: center;
+  width: 100%;
+
+  .sponsor {
+    max-width: 30rem;
+    margin: 0 auto;
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
+
+  img {
+    display: inline-block;
+    margin: 0 auto;
+    max-height: 5rem;
+  }
+
+  &.sponsors__container--medium .sponsor {
+    width: 85%;
+    max-width: 24rem;
+  }
+
+  &.sponsors__container--small .sponsor {
+    width: 70%;
+    max-width: 18rem;
+  }
+
+  &.sponsors__container--xsmall .sponsor {
+    width: 60%;
+    max-width: 12rem;
+  }
+}
+
+.sponsors__help {
+  text-align: center;
+  margin-top: 3rem;
+
+  a {
+    font-weight: bold;
+  }
+}

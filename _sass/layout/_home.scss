@@ -28,9 +28,10 @@
   color: $blue70;
 }
 
-.home__ticket {
+.home__ticket, .home__sponsors {
   background: $peach;
   color: $blue70;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  margin-top: -1px;
 }
