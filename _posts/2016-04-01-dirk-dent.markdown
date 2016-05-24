@@ -4,7 +4,7 @@ title:  "Dirk Dent"
 date:   2016-04-16 15:40:13 +0200
 categories: speaker
 twitter: unknown
-short-bio: Babelfish bot sound expert
+short-bio: Babelfish bot sound expert.
 talk: t.b.a.
 tba: yes
 ---
