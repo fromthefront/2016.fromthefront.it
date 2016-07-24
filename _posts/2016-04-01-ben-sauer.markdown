@@ -1,9 +1,13 @@
 ---
 layout: post
 title:  "Ben Sauer"
+name: Ben
 date:   2016-04-16 15:45:13 +0200
 categories: speaker
 twitter: bensauer
 short-bio: UX Designer + Strategist at Clearleft, ex-director at The Escape Committee. Provocateur.
-talk: t.b.a.
+bio: https://2016.fromthefront.it/42/post/145867087728
+talk: Open the pod bay doors, designer
+abstract: >
+    Right now voice UIs like Siri are, well…. hit and miss. But all the big players are heavily investing in voice UI, let’s suppose it will be much smarter, soon. What does that mean for us designers? Will screen UI even be required? Should we be changing our workflow now? In this talk, Ben will look at the current capabilities of Voice UIs, how the APIs are connecting to apps, what’s next, and how this might change our design process and products.
 ---

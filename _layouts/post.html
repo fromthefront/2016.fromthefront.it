@@ -1,15 +1,42 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+<div class="home__banner">
+  {% include banner.html %}
+</div>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<div class="home__description">
+  {% include space-top.html %}
+
+  <div class="post">
+    <h1>{{page.title}}</h1>
+    <p>{{ page.abstract }}</p>
+    <a href="{{page.bio}}">Learn more about {{page.name}}</a>
   </div>
+</div>
 
-</article>
+<style>
+  .home__description {
+    overflow: hidden;
+  }
+
+  .banner__action, .site-contacts, .site-footer {
+    display: none;
+  }
+
+  .post {
+    position: absolute;
+    top: 150px;
+    background: white;
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+    color: #0b2333;
+    padding: 2rem;
+  }
+
+  .post h1 {
+    margin-top: 0;
+  }
+</style>

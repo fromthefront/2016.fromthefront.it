@@ -1,27 +1,40 @@
-  {% if include.speaker.tba %}
-  <article class="speaker speaker--unknown">
-    <div class="speaker__img-wrapper ">
-      <img src="{{site.baseurl}}/assets/speakers/default.png" alt="A picture of the from the front" class="speaker__img">
-      <div>?</div>
-    </div>
-  {% else %}
-  <article class="speaker">
+{% if include.speaker.talk == 't.b.a.' %}
+<a class="speaker" href="{{include.speaker.bio}}" target="_blank" modal-href="{{include.speaker.bio}}">
+{% else %}
+<a class="speaker" href="{{include.speaker.url}}" rel="modal:open" modal-href="#modal-{{include.speaker.title | slugify: 'pretty'}}">
+{% endif %}
+  <div class="speaker__details">
     <div class="speaker__img-wrapper">
       <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
     </div>
-  {% endif %}
 
-  <div class="speaker__info">
-    <h3 class="speaker__name">
-      {{include.speaker.title}}
-    </h3>
+    <div class="speaker__info">
+      <h3 class="speaker__name">
+        {{include.speaker.title}}
+      </h3>
 
-    {% unless include.speaker.tba %}
-      <a href="//twitter.com/{{include.speaker.twitter}}" class="speaker__twitter">@{{include.speaker.twitter}}</a>
-    {% endunless %}
-
-    <p class="speaker__shortbio">
-      {{include.speaker.short-bio}}
-    </p>
+      <p class="speaker__shortbio">
+        {{include.speaker.talk}}
+      </p>
+    </div>
   </div>
-</article>
+</a>
+
+
+<div id="modal-{{include.speaker.title | slugify: 'pretty'}}" style="display:none">
+  <div class="modal__content">
+    <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+    <h2 class="modal__name">{{include.speaker.title}}</h2>
+    <h1 class="modal__title">{{include.speaker.talk}}</h1>
+    <p class="modal__abstract">{{include.speaker.abstract}}</p>
+
+    <div class="modal__footer">
+      <span>
+        <strong>Schedule:</strong> t.b.a.
+      </span>
+      <a href="{{include.speaker.bio}}" target="_blank">
+        Learn more about {{include.speaker.name}}
+      </a>
+    </div>
+  </div>
+</div>

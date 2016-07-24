@@ -10,46 +10,29 @@ $speaker-height: 10rem;
 
 .speaker {
   position: relative;
-  padding: 0 5%;
-  text-align: center;
-  overflow: hidden;
+  width: 49%;
+  display: inline-block;
+  transform: rotate(-30deg);
+  margin-bottom: 2.5em;
 
-  @include media('>tablet-portrait') {
-    display: flex;
-    align-items: center;
-    height: $speaker-height;
-    text-align: left;
+  @include media('<tablet-portrait') {
+    width: 100%;
   }
+}
 
-  &:nth-child(2n) {
-    @include media('>tablet-portrait') {
-      text-align: right;
-
-      .speaker__img-wrapper {
-        left: auto;
-        right: calc(30% - #{$speaker-height});
-      }
-    }
-  }
+.speaker__details {
+  display: flex;
+  align-items: center;
 }
 
 .speaker__img-wrapper {
   position: relative;
   display: inline-block;
   border-radius: 100%;
-  height: $speaker-height;
   left: auto;
   right: auto;
 
-  @include media('>tablet-portrait') {
-    position: absolute;
-    top: 0;
-    left: calc(30% - #{$speaker-height});
-  }
-
   > div {
-    position: absolute;
-    background: rgba(30, 72, 102, 0.5);
     top: 0;
     left: 0;
     width: 100%;
@@ -66,20 +49,30 @@ $speaker-height: 10rem;
 
 .speaker__img {
   border-radius: 100%;
-  height: $speaker-height;
+  width: $speaker-height;
+  border: 10px solid $peach20;
 }
 
-
-
 .speaker__name {
+  color: $blue80;
   margin: 0;
+  font-size: 1.4rem !important;
+  line-height: 1.2 !important;
 }
 
 .speaker__info {
   width: 100%;
-  padding: 0 15%;
+  padding-left: .5em;
+}
 
-  @include media('>tablet-portrait') {
-    padding: 0 30%;
-  }
+.speaker__shortbio {
+  @include h3;
+  margin: 0 !important;
+  color: $red40;
+  text-shadow:
+          -1px 1px 0 $blue80,
+          -2px 2px 0 $blue80,
+          -3px 3px 0 $blue80;
+  line-height: 1.2 !important;
+  font-size: 1.4em !important;
 }

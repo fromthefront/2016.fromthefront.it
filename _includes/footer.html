@@ -17,6 +17,14 @@
   40033 Casalecchio di Reno (BO) Italy
   C.F. 91344080378 <a href="https://www.iubenda.com/privacy-policy/155299" class="privacy__link iubenda-nostyle" id="iubenda-embed">Privacy</a>
 </footer>
+
+<div class="modal">
+    <div class="modal-inner">
+        <!--<a rel="modal:close">Close</a>-->
+        <div class="modal-content"></div>
+    </div>
+</div>
+
 <div id="splash">Don't Panic</div>
 <script>
 (function(){
@@ -26,3 +34,12 @@
 ;function winOpen(a, w, h){w=w||680;h=h||488;window.open(a.href, null, 'height='+h+', width='+w+', toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); }
 </script>
 <script>(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; w.addEventListener ? w.addEventListener("load", loader, false) : w.attachEvent("onload", loader);})(window, document);</script>
+
+<script>
+Array.prototype.forEach.call(document.getElementsByClassName('speaker'), function(el){
+    el.setAttribute("href", el.getAttribute("modal-href"));
+})
+</script>
+
+<script src="/scripts/vanilla-modal.js"></script>
+<script>var modal = new vanillaModal.VanillaModal();</script>
