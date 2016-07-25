@@ -4,7 +4,7 @@
 
     {% for post in sorted_posts %}
       {% if post.categories contains 'speaker' %}
-        {% include speaker.html speaker=post %}
+        {% include speaker.html speaker=post index=forloop.index %}
       {% endif %}
     {% endfor %}
   </div>

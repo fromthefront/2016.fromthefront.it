@@ -1,7 +1,7 @@
 {% if include.speaker.talk == 't.b.a.' %}
 <a class="speaker" href="{{include.speaker.bio}}" target="_blank" modal-href="{{include.speaker.bio}}">
 {% else %}
-<a class="speaker" href="{{include.speaker.url}}" rel="modal:open" modal-href="#modal-{{include.speaker.title | slugify: 'pretty'}}">
+<a class="speaker" href="{{include.speaker.url}}" rel="modal:open" modal-href="#modal-{{include.index}}">
 {% endif %}
   <div class="speaker__details">
     <div class="speaker__img-wrapper">
@@ -21,7 +21,7 @@
 </a>
 
 
-<div id="modal-{{include.speaker.title | slugify: 'pretty'}}" style="display:none">
+<div id="modal-{{include.index}}" style="display:none">
   <div class="modal__content">
     <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
     <h2 class="modal__name">{{include.speaker.title}}</h2>
