@@ -48,11 +48,7 @@ $image-height: 130px;
 
 .modal-inner {
   position: relative;
-  //overflow: hidden;
   max-width: 90%;
-  max-height: 90%;
-  //overflow-x: hidden;
-  //overflow-y: auto;
   overflow: visible;
   background: #fff;
   z-index: -1;
@@ -61,6 +57,8 @@ $image-height: 130px;
   transition: opacity 0.2s, transform 0.2s, z-index 0s 0.2s;
   border-radius: 10px;
   padding: 0 2rem;
+  margin-top: calc(#{$image-height / 2} + 1rem);
+  margin-bottom: 1rem;
 
   @include media('>tablet-portrait') {
     max-width: 50%;
@@ -123,13 +121,21 @@ a[rel="modal:close"] {
 .modal__footer {
   font-size: 1rem;
   color: $black;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 
-  > span {
-    float: left;
+  > span, > a {
+    display: block;
   }
 
-  > a {
-    float: right;
+  @include media('>tablet-portrait') {
+    padding-bottom: 4rem;
+
+    > span {
+      float: left;
+    }
+
+    > a {
+      float: right;
+    }
   }
 }
