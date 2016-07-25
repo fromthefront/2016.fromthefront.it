@@ -40,6 +40,10 @@ $image-height: 130px;
   content: "";
 }
 
+.modal-visible {
+  overflow: hidden;
+}
+
 .vanilla-modal.modal-visible .modal {
   z-index: 99;
   opacity: 1;
@@ -113,7 +117,7 @@ a[rel="modal:close"] {
 
 .modal__abstract {
   color: $black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: left;
   line-height: 1.5;
 }

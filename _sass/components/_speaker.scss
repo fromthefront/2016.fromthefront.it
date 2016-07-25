@@ -18,6 +18,13 @@ $speaker-height: 10rem;
   @include media('<tablet-portrait') {
     width: 100%;
   }
+
+  &:hover {
+    .speaker__shortbio {
+      color: $blue20;
+      text-shadow: -1px 1px 0 $blue70, -2px 2px 0 $blue70;
+    }
+  }
 }
 
 .speaker__details {
@@ -54,7 +61,7 @@ $speaker-height: 10rem;
 }
 
 .speaker__name {
-  color: $blue80;
+  color: $red20;
   margin: 0;
   font-size: 1.4rem !important;
   line-height: 1.2 !important;
@@ -67,12 +74,10 @@ $speaker-height: 10rem;
 
 .speaker__shortbio {
   @include h3;
+  color: $blue30;
   margin: 0 !important;
-  color: $red40;
-  text-shadow:
-          -1px 1px 0 $blue80,
-          -2px 2px 0 $blue80,
-          -3px 3px 0 $blue80;
   line-height: 1.2 !important;
   font-size: 1.4em !important;
+
+  transition: text-shadow .2s ease;
 }
