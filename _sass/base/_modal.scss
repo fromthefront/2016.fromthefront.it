@@ -52,7 +52,7 @@ $image-height: 130px;
 
 .modal-inner {
   position: relative;
-  max-width: 90%;
+  max-width: 85%;
   overflow: visible;
   background: #fff;
   z-index: -1;
@@ -92,9 +92,9 @@ a[rel="modal:close"] {
 
 .modal-content {
   text-align: center;
-  margin-top: -1 * $image-height / 2;
 
   img {
+    margin-top: -1 * $image-height / 2;
     height: $image-height;
     width: $image-height;
     display: inline-block;
