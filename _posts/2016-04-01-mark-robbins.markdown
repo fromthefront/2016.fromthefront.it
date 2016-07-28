@@ -9,5 +9,7 @@ short-bio: Email developer, CSS hacker, Speaker. Work at @GoRebelMail. Views are
 bio: https://2016.fromthefront.it/42/post/144206796083
 talk: Modern CSS and interactive email
 abstract: >
-    Email has often been overlooked as simplistic, outdated and limited but with modern webkit based email clients accounting for over 60% of opens the possibilities have really opened up. The new age of email is a fully interactive experience based in modern CSS (with a solid fallback for Outlook).We'll look over the code behind some of these new experiences we can offer in emails, such as (but not limited to): image galleries, price calculations, hotspots, animation and checkout.
+    Email has often been overlooked as simplistic, outdated and limited but with modern webkit based email clients accounting for over 60% of opens the possibilities have really opened up. The new age of email is a fully interactive experience based in modern CSS (with a solid fallback for Outlook).
+    <br/><br/>
+    We'll look over the code behind some of these new experiences we can offer in emails, such as (but not limited to): image galleries, price calculations, hotspots, animation and checkout.
 ---
