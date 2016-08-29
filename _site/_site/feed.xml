@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The frontend guide to life, universe and everything</title>
+    <description>The frontend guide to life, universe and everything is going to be an inspiring, formative, cutting edge gathering of  some of the best frontend developers and UX people in the world. Bologna, september 2016
+</description>
+    <link>https://2016.fromthefront.it/</link>
+    <atom:link href="https://2016.fromthefront.it/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Aug 2016 19:16:36 +0100</pubDate>
+    <lastBuildDate>Mon, 29 Aug 2016 19:16:36 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Ben Sauer</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:45:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/ben-sauer.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/ben-sauer.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Dan Mall</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:44:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/dan-mall.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/dan-mall.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Jeremy Keith</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:43:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/jeremy-keith.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/jeremy-keith.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Lyza Danger Gardner</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:42:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/lyza-danger-gardner.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/lyza-danger-gardner.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Patrick Hamann</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:41:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/patrick-hamann.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/patrick-hamann.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Unixstickers</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:40:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/sponsor/2016/04/16/unixstickers.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/sponsor/2016/04/16/unixstickers.html</guid>
+        
+        
+        <category>sponsor</category>
+        
+      </item>
+    
+      <item>
+        <title>Sticker Mule</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:40:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/sponsor/2016/04/16/stickermule.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/sponsor/2016/04/16/stickermule.html</guid>
+        
+        
+        <category>sponsor</category>
+        
+      </item>
+    
+      <item>
+        <title>Nephila</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:40:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/sponsor/2016/04/16/nephila.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/sponsor/2016/04/16/nephila.html</guid>
+        
+        
+        <category>sponsor</category>
+        
+      </item>
+    
+      <item>
+        <title>Iubenda</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:40:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/sponsor/2016/04/16/iubenda.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/sponsor/2016/04/16/iubenda.html</guid>
+        
+        
+        <category>sponsor</category>
+        
+      </item>
+    
+      <item>
+        <title>Varya Stepanova</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Apr 2016 14:40:13 +0100</pubDate>
+        <link>https://2016.fromthefront.it/speaker/2016/04/16/varya-stepanova.html</link>
+        <guid isPermaLink="true">https://2016.fromthefront.it/speaker/2016/04/16/varya-stepanova.html</guid>
+        
+        
+        <category>speaker</category>
+        
+      </item>
+    
+  </channel>
+</rss>

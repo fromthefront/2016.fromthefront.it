@@ -6,13 +6,7 @@
   padding-bottom: 1rem;
 
   @include media('>tablet-portrait') {
-    position: absolute;
-    text-align: left;
-    transform: translateY(-100%);
-  }
-
-  @include media('>desktop') {
-    transform: translateY(-150%);
+    transform: translateY(-50%);
   }
 
   .site-contacts--title, li {
