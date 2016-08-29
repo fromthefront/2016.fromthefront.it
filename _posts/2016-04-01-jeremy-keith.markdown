@@ -8,6 +8,7 @@ twitter: adactio
 short-bio: An Irish web developer working with @Clearleft curating @dConstruct.
 bio: https://2016.fromthefront.it/42/post/145866643933/jeremy-keith-jeremy-lives-in-brighton-england
 talk: Resiliance!
+time: "Day #1 - 10:30"
 abstract: >
     Web browsers have become so powerful that developers are now treating them as if they were a runtime environment as predictable as any other. But the truth is that we still need to deal with many unknown factors that torpedo our assumptions.
     <br/><br/>

@@ -8,6 +8,7 @@ twitter: craftui
 short-bio: Interaction designer at @FutureLearn. Tweets about design, interfaces, architecture, behavioural psychology and, very occasionally, robots.
 bio: https://2016.fromthefront.it/42/post/145866777968/alla-kholmatova-alla-is-an-interaction-designer-at
 talk: The modular design process
+time: "Day #2 - 14:45"
 abstract: >
     We've been talking a lot recently about designing systems rather than pages, but what exactly is a design system? And why do some systems get better with time – more coherent and well functioning, while others get progressively worse – they become bloated, cumbersome, difficult to work with? Most importantly, once your design system is set up, how do you make sure that other people in your company can use it to achieve their goals, and that they would even *want* to work with that system?
     <br/><br/>
