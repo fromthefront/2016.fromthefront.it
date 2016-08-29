@@ -1,0 +1,74 @@
+.schedule {
+  overflow: hidden;
+
+  .banner .global-header {
+    width: 50%;
+    max-width: 400px;
+
+    @include media('<tablet-portrait') {
+      width: 90%;
+    }
+  }
+
+  .schedule__ticket {
+    margin-top: -7px;
+  }
+}
+
+.schedule__description {
+  .day {
+    @include media('>=tablet-portrait') {
+      width: 49%;
+    }
+
+    padding: 0 5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.schedule__item {
+  margin: 2em 0;
+}
+
+.schedule__time {
+  width: 75px;
+  text-align: left;
+  display: inline-block;
+}
+
+.schedule__event {
+  font-family: $font-base;
+  font-weight: bold;
+
+  .speaker {
+    transform: none;
+    width: calc(100% - 85px);
+    margin: 0;
+  }
+
+  .speaker__info {
+    padding: 0;
+  }
+
+  .speaker__name, .speaker__shortbio {
+    font-size: 1rem !important;
+  }
+}
+
+.schedule__description {
+  position: relative;
+  z-index: 3;
+}
+
+.schedule__ticket, .schedule__sponsors {
+  background: $peach;
+  color: $blue70;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: -1px;
+}
+
+.schedule__sponsors {
+  padding-bottom:0.5rem;
+}

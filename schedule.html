@@ -1,0 +1,225 @@
+---
+layout: default
+---
+<article class="schedule">
+    <a href="/" class="banner">
+        <div class="banner__title">
+            {% include global-header.html %}
+        </div>
+    </a>
+
+    <div class="schedule__description">
+        <div>
+            <div class="day">
+                <h2>15th September</h2>
+                <ul>
+                    <li class="schedule__item">
+                        <span class="schedule__time">08:30</span>
+                        <span class="schedule__event">REGISTRATION</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">09:30</span>
+                        <span class="schedule__event">WELCOME</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">09:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Lyza Danger Gardner') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=1 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">10:30</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Jeremy Keith') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=2 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">11:15</span>
+                        <span class="schedule__event">BREAK</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">11:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Léonie Watson') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=3 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">12:30</span>
+                        <span class="schedule__event">LUNCH</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">14:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Sara Soueidan') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=4 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">15:30</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Mark Robbins') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=5 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">16:15</span>
+                        <span class="schedule__event">BREAK</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">16:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Marc Thiele') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=6 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">17:15</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Dan Mall') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=7 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">18:00</span>
+                        <span class="schedule__event">CHAT AND DRINKS</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">21:00</span>
+                        <span class="schedule__event">PARTY</span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="day">
+                <h2>16th September</h2>
+                <ul>
+                    <li class="schedule__item">
+                        <span class="schedule__time">08:30</span>
+                        <span class="schedule__event">REGISTRATION</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">09:30</span>
+                        <span class="schedule__event">WELCOME</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">09:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Denys Mishunov') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=8 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">10:30</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Patrick Hamann') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=9 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">11:15</span>
+                        <span class="schedule__event">BREAK</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">11:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Ben Sauer') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=10 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">12:30</span>
+                        <span class="schedule__event">LUNCH</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">14:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Alla Kholmatova') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=11 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">15:30</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Hugo Giraudel') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=12 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">16:15</span>
+                        <span class="schedule__event">BREAK</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">16:45</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Varya Stepanova') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=13 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">17:15</span>
+                        <span class="schedule__event">
+                            {% assign speaker = (site.posts | where: 'title', 'Beth Dean') %}
+                            {% for x in speaker %}
+                                {% include speaker.html speaker=x index=14 avoid_image=1 %}
+                            {% endfor %}
+                        </span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__time">18:00</span>
+                        <span class="schedule__event">CHAT AND DRINKS</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="schedule__wave">
+        {% include wave.html %}
+
+        <div class="schedule__ticket">
+            {% include tickets.html %}
+        </div>
+
+        <div class="wave--middle__wrapper">
+            {% include wave-middle.html %}
+        </div>
+
+
+        <div class="schedule__sponsors">
+            {% include sponsors.html %}
+        </div>
+
+        {% include wave-bottom.html %}
+    </div>
+
+</article>

@@ -4,9 +4,11 @@
 <a class="speaker" href="{{include.speaker.url}}" rel="modal:open" modal-href="#modal-{{include.index}}">
 {% endif %}
   <div class="speaker__details">
-    <div class="speaker__img-wrapper">
-      <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
-    </div>
+    {% unless include.avoid_image == 1 %}
+      <div class="speaker__img-wrapper">
+        <img src="{{site.baseurl}}/assets/speakers/{{include.speaker.twitter | slugify: 'pretty'}}.jpg" alt="A picture of {{include.speaker.title}}" class="speaker__img">
+      </div>
+    {% endunless %}
 
     <div class="speaker__info">
       <h3 class="speaker__name">
