@@ -4,6 +4,7 @@
   .banner .global-header {
     width: 50%;
     max-width: 400px;
+    margin-top: 1rem;
 
     @include media('<tablet-portrait') {
       width: 90%;
@@ -12,6 +13,19 @@
 
   .schedule__ticket {
     margin-top: -7px;
+    padding-top: 1px;
+
+    @include media('>tablet-portrait') {
+      margin-top: -55px;
+    }
+  }
+
+  .schedule__wave {
+    margin-top: -70px;
+
+    @include media('>tablet-portrait') {
+      margin-top: -130px;
+    }
   }
 }
 

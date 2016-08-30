@@ -19,12 +19,11 @@
 
   @include media('>tablet-landscape') {
     margin-top: -8rem;
-    //padding: 0 15em;
   }
 }
 
 .speakers__schedule {
   text-align: center;
-  font-size: 80%;
   margin-top: 2rem;
+  font-size: 1.125rem;
 }
