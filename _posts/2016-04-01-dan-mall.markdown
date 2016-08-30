@@ -8,7 +8,7 @@ twitter: danielmall
 short-bio: A creative director & advisor from USA. Founder & Director of @SuperFriendly.
 bio: https://2016.fromthefront.it/42/post/145867268168
 talk: On Apprenticeships
-time: "Day #1 - 17:15"
+time: "Day #1 &mdash; 17:15"
 abstract: >
     Product shops, agencies, and web boutiques are often cut-throat environments that generally don't leave much space for learning and growth. Dan will talk about how the time-tested apprenticeship approach can be viable for almost any outfit and ultimately lead to happier employees, better work, and an industry that's healthier than we found it.
 ---

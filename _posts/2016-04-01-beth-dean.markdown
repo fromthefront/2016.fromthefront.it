@@ -8,7 +8,7 @@ twitter: bethdean
 short-bio: Creep making comics, posters and toys as @_blackforest and designing @ Facebook. Liking all your dog pics. Prolific hiker.
 bio: https://2016.fromthefront.it/42/post/145867161538/beth-dean-beth-is-an-illustrator-and-designer-in
 talk: Emotional Intelligence in Design
-time: "Day #2 - 17:15"
+time: "Day #2 &mdash; 17:15"
 abstract: >
     Data and good intentions are no longer enough in a world where the lines are increasingly blurred between online and offline experiences. People need products that support the broad spectrum of human experience. By practicing awareness we can create designs that help people do what they need to do, even when life is hard.
 ---

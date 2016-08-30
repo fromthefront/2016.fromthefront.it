@@ -8,7 +8,7 @@ twitter: hugogiraudel
 short-bio: French front-end developer and serial writer in Berlin.
 bio: https://2016.fromthefront.it/42/post/145867594503
 talk: Local styling with CSS Modules
-time: "Day #2 - 15:30"
+time: "Day #2 &mdash; 15:30"
 abstract: >
     CSS is well known for being aggressively global. This very behaviour makes it difficult to scale. Style isolation and dead code elimination are only two of the many problems encountered when working with CSS on large and long-lasting codebases.
     <br/><br/>

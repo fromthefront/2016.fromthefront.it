@@ -8,7 +8,7 @@ twitter: patrickhamann
 short-bio: Progressive enhancement advocate. Helping to build fast websites @FT.
 bio: https://2016.fromthefront.it/42/post/145867843428/patrick-hamann-developer-speaker-organiser
 talk: HTTP/2 What, where, why and when?!
-time: "Day #2 - 10:30"
+time: "Day #2 &mdash; 10:30"
 abstract: >
     The onset of HTTP/2 is upon us. Now over 75% of your users browsers support the low-latency transfer protocol, yet adoption has been slow.
     <br/><br/>
