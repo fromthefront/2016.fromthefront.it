@@ -25,6 +25,10 @@
   top: -1px; // to prevent browser redundance gap
   background: $peach;
 
+  &.wave--middle {
+    transform: none !important;
+  }
+
   &:last-of-type {
     transform: rotate(180deg);
   }
