@@ -16,6 +16,9 @@
 }
 
 .schedule__description {
+  max-width: 1000px;
+  margin:auto;
+
   .day {
     @include media('>=tablet-portrait') {
       width: 49%;
